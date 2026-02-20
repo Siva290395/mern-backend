@@ -233,3 +233,141 @@ cat server.js
 npm init -y
 npm install express
 nano Dockerfile
+git init
+git add .
+git commit -m "mern backend"
+git remote add origin https://github.com/Siva290395/mern-backend.git
+git push -u origin main
+git remote add origin https://github.com/Siva290395/mern-backend
+git push -u origin main
+git status
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+git remote -v
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+cd mern-backend
+nano Jenkinsfile
+git add .
+git commit -m "added jenkins pipeline"
+git push
+cd mern-backend
+nano Jenkinsfile
+git add Jenkinsfile
+git commit -m "added jenkins pipeline"
+git push origin main
+cd mern-backend
+ls
+nano Jenkinsfile
+git add Jenkinsfile
+git commit -m "Added Jenkinsfile"
+git push origin main
+ls
+cd mern-backend/
+ls
+cat Jenkinsfile 
+ls
+cd ..
+ls
+cd mern-backend/
+ls
+mv Jenkinsfile ..
+cd ..
+ls
+git add .
+git commit -m "Moved Jenkinsfile to root"
+git push origin main
+ls
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+cd mern-backend
+nano Dockerfile
+git add Dockerfile
+git commit -m "Added Dockerfile"
+git push origin main
+cd mern-backend/
+ls
+cd ..
+ls
+cd mern-backend/
+l
+cat Dockerfile 
+cd /var/lib/jenkins/workspace/
+ls
+sudo rm -rf /var/lib/jenkins/workspace/mern-backend-job
+ls
+cd mern-backend-pipeline
+ls
+cd ~/mern-backend
+ls
+git add Dockerfile
+git commit -m "Added Dockerfile"
+git push origin main
+cd ..
+ls
+cd mern-backend-pipeline
+cd /var/lib/jenkins/workspace/
+ls
+cd mern-backend-pipeline
+ls
+docker rm -f mern-container
+sudo usermod -aG docker jenkins
+sudo systemctl restart docker
+git config --global http.postBuffer 524288000
+git config --global http.maxRequestBuffer 100M
+git config --global core.compression 0
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+sudo rm -rf /var/lib/jenkins/workspace/pipeline-d
+sudo systemctl restart jenkins
+docker run -d -p 27017:27017 --name mongodb mongo
+docker ps
+docker rm mongodb
+docker rm -f mongodb
+docker run -d --name mongodb -p 27017:27017 -v mongodbdata:/data/db mongo
+docker ps
+sudo systemctl restart docker
+docker exec -it mongodb mongosh
+df -h
+docker container prune -f
+docker image prune -a -f
+docker volume prune -f
+docker builder prune -a -f
+docker system prune -a --volumes -f
+sudo systemctl restart docker
+df -h
+docker run -d --name mongodb -p 27017:27017 -v mongodbdata:/data/db mongo
+docker ps
+docker exec -it mongodb mongosh
+docker ps
+df -h
+docker system prune -a -f
+docker volume prune -f
+sudo systemctl restart docker
+df -h
+sudo systemctl restart jenkins
+cd mern-backend
+nano .env
+docker network create mern-network
+docker network connect mern-network mongodb
+docker build -t mern-backend .
+docker run -d --name backend --network mern-network -p 5000:5000 mern-backend
+docker ps
+docker stop backend
+docker rm backend
+git init
+nano .gitignore
+git add .
+git commit -m "initial backend commit"
+git branch -M main
+git remote add origin https://github.com/Siva290395/mern-backend.git
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+sudo systemctl restart docker
